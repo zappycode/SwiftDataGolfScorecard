@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mcemojipicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/izyumkin/MCEmojiPicker",
+      "state" : {
+        "revision" : "9b396d0bf5fa6c516b2f113fdf1854c3bebfe702",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

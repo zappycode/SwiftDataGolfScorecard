@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011C09362A4B84A700C9A3E7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C09352A4B84A700C9A3E7 /* GameView.swift */; };
+		012724582A3A6E7F00F6B446 /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012724572A3A6E7F00F6B446 /* CreateGameView.swift */; };
+		0127245A2A3A705A00F6B446 /* CreatePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012724592A3A705A00F6B446 /* CreatePlayerView.swift */; };
+		0127245C2A3A749100F6B446 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0127245B2A3A749100F6B446 /* PreviewSampleData.swift */; };
+		014E84412A4E320D002523AF /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E84402A4E320D002523AF /* ScoreView.swift */; };
+		0176048C2A50E286007B31AB /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176048B2A50E286007B31AB /* ScoresView.swift */; };
+		017EA9812A38F848009004C3 /* GolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EA9802A38F848009004C3 /* GolfApp.swift */; };
+		017EA9852A38F849009004C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017EA9842A38F849009004C3 /* Assets.xcassets */; };
+		017EA9882A38F849009004C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017EA9872A38F849009004C3 /* Preview Assets.xcassets */; };
+		017EA98A2A38F849009004C3 /* DataModelStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EA9892A38F849009004C3 /* DataModelStuff.swift */; };
+		017EA9912A38F926009004C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017EA9902A38F926009004C3 /* HomeView.swift */; };
+		01802B162A43C59F00C60329 /* MCEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 01802B152A43C59F00C60329 /* MCEmojiPicker */; };
+		01E7BC402A4255280065A3A7 /* ProfileCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E7BC3F2A4255280065A3A7 /* ProfileCircleView.swift */; };
+		01F8327F2A454EAB007FBC28 /* EditPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8327E2A454EAB007FBC28 /* EditPlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011C09352A4B84A700C9A3E7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		012724572A3A6E7F00F6B446 /* CreateGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameView.swift; sourceTree = "<group>"; };
+		012724592A3A705A00F6B446 /* CreatePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlayerView.swift; sourceTree = "<group>"; };
+		0127245B2A3A749100F6B446 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		014E84402A4E320D002523AF /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		0176048B2A50E286007B31AB /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		017EA97D2A38F848009004C3 /* Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Golf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017EA9802A38F848009004C3 /* GolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfApp.swift; sourceTree = "<group>"; };
+		017EA9842A38F849009004C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		017EA9872A38F849009004C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		017EA9892A38F849009004C3 /* DataModelStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelStuff.swift; sourceTree = "<group>"; };
+		017EA9902A38F926009004C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		01E7BC3F2A4255280065A3A7 /* ProfileCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCircleView.swift; sourceTree = "<group>"; };
+		01F8327E2A454EAB007FBC28 /* EditPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlayerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017EA97A2A38F848009004C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01802B162A43C59F00C60329 /* MCEmojiPicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017EA9742A38F848009004C3 = {
+			isa = PBXGroup;
+			children = (
+				017EA97F2A38F848009004C3 /* Golf */,
+				017EA97E2A38F848009004C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		017EA97E2A38F848009004C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017EA97D2A38F848009004C3 /* Golf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017EA97F2A38F848009004C3 /* Golf */ = {
+			isa = PBXGroup;
+			children = (
+				017EA9802A38F848009004C3 /* GolfApp.swift */,
+				017EA9902A38F926009004C3 /* HomeView.swift */,
+				012724572A3A6E7F00F6B446 /* CreateGameView.swift */,
+				01F8327E2A454EAB007FBC28 /* EditPlayerView.swift */,
+				012724592A3A705A00F6B446 /* CreatePlayerView.swift */,
+				01E7BC3F2A4255280065A3A7 /* ProfileCircleView.swift */,
+				0127245B2A3A749100F6B446 /* PreviewSampleData.swift */,
+				017EA9842A38F849009004C3 /* Assets.xcassets */,
+				017EA9892A38F849009004C3 /* DataModelStuff.swift */,
+				014E84402A4E320D002523AF /* ScoreView.swift */,
+				0176048B2A50E286007B31AB /* ScoresView.swift */,
+				011C09352A4B84A700C9A3E7 /* GameView.swift */,
+				017EA9862A38F849009004C3 /* Preview Content */,
+			);
+			path = Golf;
+			sourceTree = "<group>";
+		};
+		017EA9862A38F849009004C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				017EA9872A38F849009004C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017EA97C2A38F848009004C3 /* Golf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017EA98D2A38F849009004C3 /* Build configuration list for PBXNativeTarget "Golf" */;
+			buildPhases = (
+				017EA9792A38F848009004C3 /* Sources */,
+				017EA97A2A38F848009004C3 /* Frameworks */,
+				017EA97B2A38F848009004C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Golf;
+			packageProductDependencies = (
+				01802B152A43C59F00C60329 /* MCEmojiPicker */,
+			);
+			productName = Golf;
+			productReference = 017EA97D2A38F848009004C3 /* Golf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017EA9752A38F848009004C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					017EA97C2A38F848009004C3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 017EA9782A38F848009004C3 /* Build configuration list for PBXProject "Golf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 017EA9742A38F848009004C3;
+			packageReferences = (
+				01802B142A43C59F00C60329 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */,
+			);
+			productRefGroup = 017EA97E2A38F848009004C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017EA97C2A38F848009004C3 /* Golf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017EA97B2A38F848009004C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017EA9882A38F849009004C3 /* Preview Assets.xcassets in Resources */,
+				017EA9852A38F849009004C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017EA9792A38F848009004C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017EA9912A38F926009004C3 /* HomeView.swift in Sources */,
+				0176048C2A50E286007B31AB /* ScoresView.swift in Sources */,
+				0127245A2A3A705A00F6B446 /* CreatePlayerView.swift in Sources */,
+				01E7BC402A4255280065A3A7 /* ProfileCircleView.swift in Sources */,
+				011C09362A4B84A700C9A3E7 /* GameView.swift in Sources */,
+				017EA98A2A38F849009004C3 /* DataModelStuff.swift in Sources */,
+				0127245C2A3A749100F6B446 /* PreviewSampleData.swift in Sources */,
+				014E84412A4E320D002523AF /* ScoreView.swift in Sources */,
+				012724582A3A6E7F00F6B446 /* CreateGameView.swift in Sources */,
+				01F8327F2A454EAB007FBC28 /* EditPlayerView.swift in Sources */,
+				017EA9812A38F848009004C3 /* GolfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		017EA98B2A38F849009004C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		017EA98C2A38F849009004C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017EA98E2A38F849009004C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golf/Preview Content\"";
+				DEVELOPMENT_TEAM = WLDBM3YRW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zappycode.Golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017EA98F2A38F849009004C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golf/Preview Content\"";
+				DEVELOPMENT_TEAM = WLDBM3YRW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zappycode.Golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017EA9782A38F848009004C3 /* Build configuration list for PBXProject "Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EA98B2A38F849009004C3 /* Debug */,
+				017EA98C2A38F849009004C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017EA98D2A38F849009004C3 /* Build configuration list for PBXNativeTarget "Golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EA98E2A38F849009004C3 /* Debug */,
+				017EA98F2A38F849009004C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01802B142A43C59F00C60329 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/izyumkin/MCEmojiPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01802B152A43C59F00C60329 /* MCEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01802B142A43C59F00C60329 /* XCRemoteSwiftPackageReference "MCEmojiPicker" */;
+			productName = MCEmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 017EA9752A38F848009004C3 /* Project object */;
+}
